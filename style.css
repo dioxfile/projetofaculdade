@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* media queries */
+@media (max-width: 280px){
+    .navbar a img {
+        visibility: hidden;
+    }
+
+    .menu-mobile{
+
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3em;
+
+    }
+
+}
+
+@media (max-width: 1280px){ /*galaxy fold */
+    .navbar-ul{
+        visibility: hidden;
+    }
+    .navbar a {
+       flex: 1;
+    }
+    .menu-mobile {
+        padding-right: 3em;
+    }
+}
+@media (min-width: 1280px){
+    .navbar-ul a {
+        font-size: larger;
+    }
+    .navbar-mobile{
+        visibility: hidden;
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, arial;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url("./assets/Seguranca.png");
+    background-position: center;
+    background-size: contain;
+}
+#corpo{
+    overflow: hidden;
+    width: 100%;
+    clear:both;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+
+}
+.navbar a{
+    flex:1;
+}
+.navbar a img{
+    height: 100px;
+    margin-left: 2rem;
+}
+.navbar-ul {
+    white-space: nowrap;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    padding-right: 4rem ;
+    height: 120px;
+}
+.navbar-ul li {
+    margin-left: 1em;
+}
+.navbar-ul  a{
+    color:  white;
+    text-decoration: none;
+}
+
+.menu-mobile  div{
+    width: 5em;
+    height: 0.8em;
+    background: white;
+    border-radius: 10px;
+    margin-bottom:0.8em;
+}
+.navbar-mobile{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    justify-content: end;
+
+
+}
