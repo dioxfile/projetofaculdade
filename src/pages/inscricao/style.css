@@ -136,7 +136,7 @@
         justify-content: end;
         list-style: none;
         height: 120px;
-        right: 0px;
+        padding-right: 2em;
 
     }
     .navbar-ul li {
@@ -242,7 +242,7 @@ body{
 
 }
 .iframe{
-    width: 35em;
+    width: 90vw;
     height: 100%;
 
 }
