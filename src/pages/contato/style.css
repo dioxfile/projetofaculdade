@@ -148,6 +148,12 @@
         margin-right: .9em;
     
     }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 5em;
+    }
     
 
 }
@@ -255,6 +261,12 @@
         margin-right: .9em;
     
     }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 10em;
+    }
 }
 
 *{
@@ -305,22 +317,3 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-    color: white;
-}
