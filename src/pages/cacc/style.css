@@ -183,6 +183,13 @@
         color: white;
         margin-left: 0em;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     footer p {
         color: white;
@@ -331,6 +338,13 @@
     .cacc-integrantes-dados p {
         color: white;
         margin-left: 0em;
+    }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     footer p {
         color: white;
