@@ -141,18 +141,15 @@
         align-items: center;
         justify-content: center;
         text-decoration: none;
-
-        position: absolute;
-        bottom: 22vh;
-        width: 20vw;
-        height: 5vh;
+        width: 50vw;
+        background-color: rgb(0, 255, 255, .4);
+        position: relative;
 
     }
     .principal a p {
         color: white;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
-        text-shadow: 1px 1px black;
         white-space: nowrap;
     }
     .principal img {
@@ -270,22 +267,24 @@
         white-space: unset;
     }
     .principal a{
+        margin-top: 1.2em;
+        padding: .5em;
         /* background-color: rgba(255, 127, 80, 0.7); */
-
+        border-radius: 10px;
+        width: 100%;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
-        position: absolute;
-        bottom: 25vh;
-        height: 6vh;
-        width: 11vw;
+        width: 50vw;
+        background-color: rgb(0, 255, 255, .4);
+        position: relative;
 
     }
     .principal a p {
         color: white;
-        font-size: large;
+        font-size: x-large;
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 1px 1px black;
         white-space: nowrap;
