@@ -207,12 +207,16 @@
     .principal p{
         margin: 0px 4em;
         color:white;
-        font-size: large;
+        font-size: x-large;
         font-family: arial;
         text-align: justify;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: unset;
+        word-spacing: .2em;
+        line-height:1.2em;
+
+       
     }
     .principal a{
         margin-top: 1.2em;
